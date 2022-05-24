@@ -1,0 +1,140 @@
+body {
+	background-color: #E7EBF0; 
+}
+
+.text-left {
+	text-align: left;
+}
+.text-center {
+	text-align: center;
+}
+
+.MuiGrid-container {
+	margin-bottom: 25px;
+}
+
+.btn-wrapper { 
+	margin-bottom: 15px;
+	width: 100%; 
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.refresh-btn {
+	font-size: 10px !important;
+	font-weight: 600 !important;
+}
+
+.temp-wrapper {
+	display: flex;
+	justify-content: center;
+}
+.temp-wrapper p:first-child {
+	margin-right: 10px;
+}
+
+.css-ahj2mt-MuiTypography-root.city-name {
+	font-size: 22px;
+	font-weight: 800;
+}
+.css-ahj2mt-MuiTypography-root.day-week {
+	font-size: 16px;
+	font-weight: 500;
+	color: rgb(43, 136, 33);
+}
+
+.small-text {
+	font-size: 12px !important;
+	color: gray !important
+}
+
+.standard-num {
+	font-size: 20px !important;
+	font-weight: 600 !important;
+}
+
+.detail-info .css-ahj2mt-MuiTypography-root {
+	font-size: 20px;
+    font-weight: 700;
+    color: lightseagreen;
+}
+
+.detail-info .css-ahj2mt-MuiTypography-root span:first-child {
+	color: black;
+    font-weight: 6000;
+    font-size: 16px;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.css-1v5z4dq-MuiPaper-root-MuiCard-root .btn-wrapper {
+	justify-content: space-between;
+}
+
+.d-flex.css-13i4rnv-MuiGrid-root {
+	position: relative;
+	margin-top: 15px !important;
+}
+.d-flex.css-13i4rnv-MuiGrid-root .error-message{
+	color: red;
+	position: absolute;
+	top: -25px;
+	font-size: 14px;
+}
+
+.hourly-weather {
+	display: flex;
+    min-height: 150px;
+    align-items: flex-end;
+    position: relative;
+}
+
+.hourly-weather span {
+	padding: 15px;
+	background-color: lightgoldenrodyellow;
+}
+
+/* ===================== */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: rgb(112, 76, 182);
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
